@@ -1,0 +1,31 @@
+\begin{table}[!htbp]
+\centering
+\caption{Early-life minimum-temperature exposure and adult health in Italy}
+\label{tab:italy-tmin20-wild-cluster}
+\begin{tabular}{lccc}
+\toprule
+ & (1) & (2) & (3) \\
+ & Self-rated health & Maximum grip strength & Chronic conditions \\
+\midrule
+Heat exposure ($T_{\min} \geq 20^{\circ}$C) & -0.082 & 0.392 & -0.053 \\
+Clustered SE & (0.033) & (0.158) & (0.020) \\
+Clustered $p$-value & [0.024] & [0.023] & [0.016] \\
+Wild bootstrap $p$-value & [0.075] & [0.073] & [0.062] \\
+\midrule
+Gender control & Yes & Yes & Yes \\
+Mother's education & Yes & Yes & Yes \\
+Father's education & Yes & Yes & Yes \\
+Region FE & Yes & Yes & Yes \\
+Birth-year FE & Yes & Yes & Yes \\
+Birth-month FE & Yes & Yes & Yes \\
+\midrule
+Observations & 1,777 & 1,597 & 1,771 \\
+Clusters & 20 & 20 & 20 \\
+Outcome mean & 2.92 & 34.44 & 0.73 \\
+$R^2$ & 0.098 & 0.623 & 0.096 \\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.94\textwidth}\footnotesize
+\textit{Notes:} Each column reports a separate OLS regression for Italian respondents born in 1950--1964 and observed in SHARE Wave 7. Heat exposure is the number of days during the first 12 months of life for which the area-weighted regional mean daily minimum temperature was at least $20^{\circ}$C; coefficients are per ten additional days. All models include gender, categorical maternal and paternal ISCED-97 controls, early-life-region fixed effects, birth-year fixed effects, and birth-month fixed effects. Parentheses report CR1 standard errors clustered by early-life region (20 clusters); the conventional clustered $p$-values use a $t$ distribution with 19 degrees of freedom. Brackets report null-imposed restricted wild cluster bootstrap-$t$ $p$-values using Rademacher weights, 9,999 replications, and clustering by early-life region. Outcomes are in their original units.
+\end{minipage}
+\end{table}

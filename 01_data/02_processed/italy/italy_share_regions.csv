@@ -1,0 +1,21 @@
+share_code,birth_region_code,weather_region_id,region_name,short_label,nuts_ids,sample_n
+R01,1601,ITF1,Abruzzo,Abruzzo,ITF1,34
+R02,1602,ITF5,Basilicata,Basilicata,ITF5,59
+R03,1603,ITF6,Calabria,Calabria,ITF6,119
+R04,1604,ITF3,Campania,Campania,ITF3,211
+R05,1605,ITH5,Emilia-Romagna,Emilia-Romagna,ITH5,160
+R06,1606,ITH4,Friuli-Venezia Giulia,Friuli-V.G.,ITH4,32
+R07,1607,ITI4,Lazio,Lazio,ITI4,132
+R08,1608,ITC3,Liguria,Liguria,ITC3,31
+R09,1609,ITC4,Lombardy,Lombardy,ITC4,231
+R10,1610,ITI3,Marche,Marche,ITI3,83
+R11,1611,ITF2,Molise,Molise,ITF2,6
+R12,1612,ITC1,Piedmont,Piedmont,ITC1,118
+R13,1613,ITF4,Apulia,Apulia,ITF4,172
+R14,1614,ITG2,Sardinia,Sardinia,ITG2,49
+R15,1615,ITG1,Sicily,Sicily,ITG1,177
+R16,1616,ITI1,Tuscany,Tuscany,ITI1,114
+R17,1617,IT_TR_AA,Trentino-Alto Adige,Trentino-A.A.,ITH1|ITH2,19
+R18,1618,ITI2,Umbria,Umbria,ITI2,58
+R19,1619,ITC2,Aosta Valley,Aosta V.,ITC2,1
+R20,1620,ITH3,Veneto,Veneto,ITH3,119

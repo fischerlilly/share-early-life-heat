@@ -1,0 +1,30 @@
+\begin{table}[!htbp]
+\centering
+\caption{Early-life heat exposure and adult health outcomes in Croatia}
+\label{tab:croatia-health-outcomes}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccccc}
+\toprule
+ & \multicolumn{3}{c}{Self-rated health} & \multicolumn{3}{c}{Maximum grip strength} & \multicolumn{3}{c}{Chronic conditions} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7} \cmidrule(lr){8-10}
+ & (1) & (2) & (3) & (1) & (2) & (3) & (1) & (2) & (3) \\
+\midrule
+Heat exposure ($T_{\min} \geq 20^{\circ}$C) & -0.026 & -0.026 & 0.042 & -0.427 & -0.805 & -2.042** & 0.011 & 0.011 & 0.147 \\
+ & (0.038) & (0.041) & (0.058) & (1.774) & (0.682) & (0.849) & (0.092) & (0.092) & (0.211) \\
+\midrule
+Gender control & No & Yes & Yes & No & Yes & Yes & No & Yes & Yes \\
+Mother's education & No & No & Yes & No & No & Yes & No & No & Yes \\
+Father's education & No & No & Yes & No & No & Yes & No & No & Yes \\
+Region FE & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes \\
+Birth-year FE & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes \\
+Birth-month FE & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes & Yes \\
+\midrule
+Observations & 1,089 & 1,089 & 900 & 1,033 & 1,033 & 862 & 1,085 & 1,085 & 898 \\
+Outcome mean & 3.19 & 3.19 & 3.20 & 37.48 & 37.48 & 37.33 & 1.12 & 1.12 & 1.12 \\
+$R^2$ & 0.106 & 0.108 & 0.137 & 0.067 & 0.611 & 0.644 & 0.098 & 0.098 & 0.099 \\
+\bottomrule
+\end{tabular}}
+\begin{minipage}{0.99\textwidth}\footnotesize
+\textit{Notes:} OLS estimates for Croatian respondents born in 1950--1964 and observed in SHARE Wave 7. Heat exposure is the number of days during the first 12 months of life on which the area-weighted regional mean of the daily minimum temperature was at least $20^{\circ}$C; coefficients are per ten additional days. All outcomes are in their original units. Parental education is controlled flexibly with ISCED-97 category indicators. Standard errors in parentheses are clustered by early-life region. Outcome means and $R^2$ refer to each model's estimation sample. $^{***}p<0.01$, $^{**}p<0.05$, $^{*}p<0.10$.
+\end{minipage}
+\end{table}

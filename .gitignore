@@ -1,0 +1,28 @@
+# Restricted SHARE microdata and person-level analysis files
+01_data/01_raw/share/
+01_data/03_analysis/
+01_data/02_processed/*/easyshare_*.csv
+01_data/02_processed/italy/italy_birth_region_waves3_7.csv
+01_data/02_processed/croatia/croatia_early_life_regions_wave7.csv
+
+# Large E-OBS source and intermediate files
+01_data/01_raw/eobs/*.nc
+01_data/02_processed/**/*.csv.gz
+
+# Local R environment and operating-system files
+.Rproj.user/
+.Rhistory
+.RData
+.DS_Store
+renv/library/
+renv/staging/
+
+# Temporary LaTeX files
+*.aux
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml

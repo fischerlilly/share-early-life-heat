@@ -1,0 +1,21 @@
+share_code,early_life_region_code,weather_region_id,region_name,short_label,nuts_ids,sample_n
+R01,4701,HR_ZAGREB,Zagreb County and Zagreb,Zagreb,HR050|HR065,113
+R02,4702,HR064,Krapina-Zagorje,Krapina-Zag.,HR064,34
+R03,4703,HR028,Sisak-Moslavina,Sisak-Moslav.,HR028,47
+R04,4704,HR027,Karlovac,Karlovac,HR027,55
+R05,4705,HR062,Varazdin,Varazdin,HR062,34
+R06,4706,HR063,Koprivnica-Krizevci,Koprivnica-Kr.,HR063,84
+R07,4707,HR021,Bjelovar-Bilogora,Bjelovar-Bil.,HR021,31
+R08,4708,HR031,Primorje-Gorski Kotar,Primorje-G.K.,HR031,41
+R09,4709,HR032,Lika-Senj,Lika-Senj,HR032,45
+R10,4710,HR022,Virovitica-Podravina,Virovitica-Pod.,HR022,47
+R11,4711,HR023,Pozega-Slavonia,Pozega-Slav.,HR023,48
+R12,4712,HR024,Brod-Posavina,Brod-Pos.,HR024,42
+R13,4713,HR033,Zadar,Zadar,HR033,41
+R14,4714,HR025,Osijek-Baranja,Osijek-Bar.,HR025,112
+R15,4715,HR034,Sibenik-Knin,Sibenik-Knin,HR034,36
+R16,4716,HR026,Vukovar-Srijem,Vukovar-Sr.,HR026,78
+R17,4717,HR035,Split-Dalmatia,Split-Dalm.,HR035,72
+R18,4718,HR036,Istria,Istria,HR036,49
+R19,4719,HR037,Dubrovnik-Neretva,Dubrovnik-Ner.,HR037,17
+R20,4720,HR061,Medimurje,Medimurje,HR061,64

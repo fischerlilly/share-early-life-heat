@@ -1,0 +1,8 @@
+variable,Variable,Mean,SD,Min,Max,N
+female_clean,Female,0.558961038961039,0.496640440008386,0,1,1925
+mother_isced_clean,Mother's education (ISCED-97),0.930532212885154,0.850806131320703,0,5,1785
+father_isced_clean,Father's education (ISCED-97),1.07995495495495,0.969578504734415,0,6,1776
+tmin20_days,"Heat exposure ($T_{\min} \geq 20^{\circ}$C), days",7.86857142857142,12.1841327870757,0,74,1925
+sphus_clean,Self-rated health,2.91064935064935,1.03188050896281,1,5,1925
+maxgrip_clean,Maximum grip strength,34.4091435185185,10.2781731260829,9,76,1728
+chronic_clean,Chronic conditions,0.71689259645464,0.92754540019253,0,7,1918
